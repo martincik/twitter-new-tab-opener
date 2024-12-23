@@ -1,0 +1,11 @@
+{
+  "name": "twitter-newtab-opener",
+  "private": true,
+  "version": "1.0",
+  "type": "module",
+  "scripts": {
+    "zip": "zip -r extension.zip manifest.json content.js background.js styles.css icon16.png icon32.png icon48.png icon128.png"
+  },
+  "devDependencies": {
+  }
+}
