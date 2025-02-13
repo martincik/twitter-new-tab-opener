@@ -3,7 +3,7 @@
   "name": "Twitter New Tab Opener",
   "version": "1.0",
   "description": "Adds a button to open tweets in new tab",
-  "permissions": ["activeTab", "tabs"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["https://twitter.com/*", "https://x.com/*"],
